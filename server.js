@@ -37,6 +37,7 @@ app.use('/api/faqs', require('./routes/faqs'));
 app.use('/api/footer-settings', require('./routes/footer-settings'));
 app.use('/api/site-settings', require('./routes/site-settings'));
 app.use('/api/stats', require('./routes/stats'));
+app.use('/api/home-content', require('./routes/home-content'));
 app.use('/api/keywords', require('./routes/keywords'));
 app.use('/api/testimonials', require('./routes/testimonials'));
 app.use('/api/careers', require('./routes/careers'));
