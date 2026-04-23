@@ -31,6 +31,24 @@ router.post('/setup', async (req, res) => {
   }
 });
 
+// Reset admin password (temporary - one time use)
+router.post('/reset-admin', async (req, res) => {
+  try {
+    const { secret, password } = req.body;
+    if (secret !== 'salarytopup_reset_2024') return res.status(403).json({ message: 'Forbidden' });
+    let admin = await Admin.findOne({ email: 'admin@salarytopup.com' });
+    if (!admin) {
+      admin = new Admin({ name: 'Admin', email: 'admin@salarytopup.com', password, role: 'admin' });
+    } else {
+      admin.password = password;
+    }
+    await admin.save();
+    res.json({ message: 'Admin password reset successfully' });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+
 // Get current admin
 const auth = require('../middleware/auth');
 router.get('/me', auth, async (req, res) => {
