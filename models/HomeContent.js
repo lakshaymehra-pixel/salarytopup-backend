@@ -11,6 +11,14 @@ const HomeContentSchema = new mongoose.Schema({
   hero_subheading:  { type: String, default: 'Achieve your life goals with a personalized approach to money. Instant salary loans, zero paperwork.' },
   hero_btn_text:    { type: String, default: 'Apply Now' },
 
+  // Hero Stats
+  hero_stat1_num:   { type: String, default: '5 Lakh+' },
+  hero_stat1_label: { type: String, default: 'Happy Customers' },
+  hero_stat2_num:   { type: String, default: '4.9 ★' },
+  hero_stat2_label: { type: String, default: 'Play Store' },
+  hero_stat3_num:   { type: String, default: 'Safe & Secure' },
+  hero_stat3_label: { type: String, default: 'Bank-grade Encryption' },
+
   // CTA Banner
   cta_heading:      { type: String, default: 'Ready for Instant Cash?' },
   cta_subtext:      { type: String, default: 'Salary loan approved in minutes, not days.' },
