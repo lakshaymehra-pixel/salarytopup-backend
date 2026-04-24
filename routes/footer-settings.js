@@ -13,7 +13,7 @@ const DEFAULTS = {
   email: 'customercare@salarytopup.com',
   address: 'B-76, 2nd Floor, Wazirpur Industrial Area, Delhi – 110052',
   rbiText: 'RBI Registered NBFC Baid Stock Broking Services Private Limited\n(Reg. No. B-14.02553)',
-  copyright: '© 2026 Salary TopUp. All Right Reserved',
+  copyright: '© 2026 Salary Topup. All Right Reserved',
   facebookUrl: 'https://www.facebook.com/profile.php?id=61574094973748',
   twitterUrl: 'https://x.com/SalaryTopup',
   instagramUrl: 'https://www.instagram.com/salary_topup',

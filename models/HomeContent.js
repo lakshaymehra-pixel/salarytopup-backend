@@ -32,12 +32,12 @@ const HomeContentSchema = new mongoose.Schema({
   // Loans Section
   loans_h1:         { type: String, default: 'Every wish fulfilled.' },
   loans_h2:         { type: String, default: 'Get instant funds!' },
-  loans_desc:       { type: String, default: "SalaryTopUp is India's most trusted salary loan app — built for working professionals who need quick, transparent, and hassle-free financial support between paydays." },
+  loans_desc:       { type: String, default: "Salary Topup is India's most trusted salary loan app — built for working professionals who need quick, transparent, and hassle-free financial support between paydays." },
 
   // Track Section
   track_h1:         { type: String, default: 'Master your' },
   track_h2:         { type: String, default: 'money matters' },
-  track_desc:       { type: String, default: 'Stay on top of your finances. Track every EMI, monitor your credit score, manage repayments — all in one place with SalaryTopUp.' },
+  track_desc:       { type: String, default: 'Stay on top of your finances. Track every EMI, monitor your credit score, manage repayments — all in one place with Salary Topup.' },
   track_bullet1:    { type: String, default: 'Real-time EMI & repayment tracking' },
   track_bullet2:    { type: String, default: '100% secure & encrypted data' },
   track_bullet3:    { type: String, default: 'Smart reminders before due dates' },

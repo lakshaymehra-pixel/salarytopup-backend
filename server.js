@@ -61,7 +61,7 @@ app.use('/api/seo/ga', require('./routes/ga'));
 app.use('/public', require('./routes/public'));
 
 // Health check
-app.get('/', (req, res) => res.json({ message: 'SalaryTopUp Admin API Running' }));
+app.get('/', (req, res) => res.json({ message: 'Salary Topup Admin API Running' }));
 
 // Blog Scheduler — check every minute and auto-publish scheduled blogs
 const Blog = require('./models/Blog');

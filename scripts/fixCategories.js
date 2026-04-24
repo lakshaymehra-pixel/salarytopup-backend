@@ -22,9 +22,9 @@ async function fix() {
   await Author.deleteMany({});
   console.log('Cleared all authors');
 
-  // Add only SalaryTopUp Team
-  await Author.create({ name: 'SalaryTopUp Team', bio: '', avatar_url: '' });
-  console.log('Created: SalaryTopUp Team');
+  // Add only Salary Topup Team
+  await Author.create({ name: 'Salary Topup Team', bio: '', avatar_url: '' });
+  console.log('Created: Salary Topup Team');
 
   await mongoose.disconnect();
   console.log('\nDone! Now refresh Categories and Authors pages.');

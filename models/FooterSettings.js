@@ -9,7 +9,7 @@ const FooterSettingsSchema = new mongoose.Schema({
   email: { type: String, default: 'customercare@salarytopup.com' },
   address: { type: String, default: 'B-76, 2nd Floor, Wazirpur Industrial Area, Delhi – 110052' },
   rbiText: { type: String, default: 'RBI Registered NBFC Baid Stock Broking Services Private Limited\n(Reg. No. B-14.02553)' },
-  copyright: { type: String, default: '© 2026 Salary TopUp. All Right Reserved' },
+  copyright: { type: String, default: '© 2026 Salary Topup. All Right Reserved' },
   facebookUrl: { type: String, default: 'https://www.facebook.com/profile.php?id=61574094973748' },
   twitterUrl: { type: String, default: 'https://x.com/SalaryTopup' },
   instagramUrl: { type: String, default: 'https://www.instagram.com/salary_topup' },

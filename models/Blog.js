@@ -4,7 +4,7 @@ const BlogSchema = new mongoose.Schema({
   title: { type: String, required: true },
   slug: { type: String, unique: true },
   category: { type: String, default: 'Finance' },
-  author: { type: String, default: 'SalaryTopUp Team' },
+  author: { type: String, default: 'Salary Topup Team' },
   short_description: { type: String },
   long_description: { type: String },
   banner_image_url: { type: String },

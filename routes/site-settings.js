@@ -6,7 +6,7 @@ const multer = require('multer');
 const upload = multer({ storage: multer.memoryStorage() });
 
 const DEFAULTS = {
-  siteName: 'SalaryTopUp',
+  siteName: 'Salary Topup',
   tagline: 'Instant Pay Relief',
   logoUrl: '',
   faviconUrl: '',

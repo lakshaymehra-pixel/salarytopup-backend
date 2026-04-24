@@ -20,12 +20,12 @@ async function seed() {
   }
 
   // Author
-  const existingAuthor = await Author.findOne({ name: 'SalaryTopUp Team' });
+  const existingAuthor = await Author.findOne({ name: 'Salary Topup Team' });
   if (!existingAuthor) {
-    await Author.create({ name: 'SalaryTopUp Team', bio: '', avatar_url: '' });
-    console.log('Created author: SalaryTopUp Team');
+    await Author.create({ name: 'Salary Topup Team', bio: '', avatar_url: '' });
+    console.log('Created author: Salary Topup Team');
   } else {
-    console.log('Author SalaryTopUp Team already exists');
+    console.log('Author Salary Topup Team already exists');
   }
 
   await mongoose.disconnect();
